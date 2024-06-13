@@ -2,15 +2,20 @@ Home Inventory System
 
 The Home Inventory System is a command-line interface (CLI) application designed to manage items within a home for insurance claims. It allows users to add, list, search, update, and remove items from their inventory, keeping track of purchase dates, prices, warranty expiration dates, and quantities.
 
-Features
+## Description
+This CLI application manages items and rooms for a home inventory system, useful for insurance claims.
 
-Add Item: Add new items to the inventory with details such as name, purchase date, price, warranty expiration date, and quantity.
-List Items: Display a list of all items currently in the inventory.
-Search Items: Search for items by name.
-Update Item: Update the price and quantity of an existing item.
-Remove Item: Remove an item from the inventory.
-Installation
+## Features
+- Add, list, search, remove, and update items.
+- Export items to CSV.
+- Basic user authentication.
+- Data validation and error handling.
 
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/home_inventory.git
+   cd home_inventory
 To run the Home Inventory System, follow these steps:
 
 Clone the repository:

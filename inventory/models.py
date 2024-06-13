@@ -8,6 +8,10 @@ class Item:
         self.warranty_expiry_date = warranty_expiry_date
         self.quantity = quantity
 
+class Room:
+    def __init__(self, name: str):
+        self.name = name
+
 
 
 
